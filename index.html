@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home
+      
+    </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+
+        <a href="index.html"> <strong> 
+          ELIZABETH OKEMMIRI</strong></a>
+
+      </div>
+      
+
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Elizabeth Okemmiri</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- LANDING PAGE -->
+    <section id="profile">
+      
+      <div class="section__text">
+        
+        <h1 class="titlefirsttext">Hi there! I’m  <b> Elizabeth </b> - </h1>
+        <h1 class="titlesecondtext"> critical thinker, strategist,  </h1>
+        <h1 class="titlethirdtext">  & problem solver. </h1>
+        <br>
+        <p class="section__text__p1">Every problem has a story - I listen, understand, and create solutions. </p>
+      </div> 
+    </section>
+  
+
+
+
+    <!-- ABOUT PAGE -->
+
+    <section id="about">
+      <p class="section__other__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about me.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+    
+          </div>
+          <div class="section__about__text">
+            <p>  Welcome! I'm Elizabeth Okemmiri. </p>
+            <br>
+            <p>
+              I’m passionate about understanding users and their individual experiences to best solve complex problems.
+            </p>
+
+            <br>
+            <p> 
+              I’m currently a senior at Northwestern University pursuing a major in Computer Science and a certificate in Design.
+            </p>
+            <br>
+            <p>
+              
+            I enjoy collaborating across cross-functional teams, communicating my ideas to different audiences, and incorporating feedback 
+            from users throughout the design process. Whether I’m redesigning Hyatt’s hotel description page or creating an educational game to 
+            encourage logical decision making for elementary school students, 
+            I’m passionate about transforming ambiguous problems into focused solutions while prioritizing user needs. 
+            </p>
+            <br>
+            <p>
+              When I’m not studying or analyzing a new problem, you can find me making unique recipes, reading, or catching up on a Podcast! 
+              I look forward to starting my career in consulting to forge meaningful connections and explore different industries. 
+            </p>
+
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+       
+<!-- PROJECTS -->
+
+
+<section id="projects">
+  <p class="section__other__text__p1">Check Out My</p>
+  <h1 class="title">Projects</h1>
+  <div class="projects-container">
+      <div class="project-card">
+          <div class="project-image-wrapper">
+              <img src="./assets/final_prototype_design.jpg" alt="CS 313 Project" class="project-img">
+          </div>
+          <h2 class="project-title">AI Decision Tree Exhibit</h2>
+          <p class="project-description">An interactive exhibit to help elementary students understand AI-driven decision-making.</p>
+          <button class="btn project-btn" onclick="window.location.href='313-project.html'">Learn More</button>
+      </div>
+
+      <div class="project-card">
+        <div class="project-image-wrapper">
+            <img src="./assets/dtc_finalsoln_open.jpg" alt="DTC Project" class="project-img">
+        </div>
+        <h2 class="project-title">JamStand</h2>
+        <p class="project-description">A custom piano stand that addresses ergonomic needs.</p>
+        <button class="btn project-btn" onclick="window.location.href='dtc-project.html'">Learn More</button>
+    </div>
+
+      <div class="project-card">
+          <div class="project330-image-wrapper">
+              <img src="./assets/Adobe Express - file.jpg" alt="Chase UX Project" class="project330img">
+          </div>
+          <h2 class="project-title">Hotel Page UX Design</h2>
+          <p class="project-description">A structured, intuitive hotel details page to enhance booking efficiency and engagement.</p>
+          <button class="btn project-btn" onclick="window.location.href='330-project.html'">Learn More</button>
+      </div>
+
+      
+      <div class="project-card">
+        <div class="project-image-wrapper">
+            <img src="./assets/deloitte_logo.png" alt="Deloitte Internship " class="project-img">
+        </div>
+        <h2 class="project-title">Deloitte Business Analyst Internship</h2>
+        <p class="project-description"> Strategic CRM implementation that aligns industry best practices with business goals.</p>
+        <button class="btn project-btn" onclick="window.location.href='deloitte-internship.html'">Learn More</button>
+    </div>
+
+    
+    <div class="project-card">
+      <div class="project-image-wrapper">
+          <img src="./assets/hyatt_logo.png" alt="Hyatt Internship" class="project-img">
+      </div>
+      <h2 class="project-title">Hyatt Corporation PM Internship</h2>
+      <p class="project-description"> In-depth analysis of usability challenges, providing strategic recommendations to improve the booking experience.</p>
+      <button class="btn project-btn" onclick="window.location.href='hyatt-internship.html'">Learn More</button>
+  </div>
+
+  
+  
+  </div>
+  
+</section>
+
+
+    <!-- CONTACT (links updated)-->
+    <section id="contact"> 
+      <p class="section__other__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <a href="https://mail.google.com/mail/?view=cm&to=eokemmiri@gmail.com" target="_blank">Email</a>
+        </div>
+
+        
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <!-- <p><a href="www.linkedin.com/in/elizabeth-okemmiri">LinkedIn</a></p> -->
+          <a href="#" onclick="window.open('https://www.linkedin.com/in/elizabeth-okemmiri', '_blank')">Linkedin</a>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/resume-icon.png"
+            alt="Resume icon"
+            class="icon contact-icon resume-icon"
+          />
+          <a href="#" onclick="window.open('./assets/Okemmiri_Elizabeth_Resume_10.11.pdf', '_blank')">Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer (need to center) -->
+     
+    
+    <footer>
+      <!-- <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav> -->
+      <p class="footer">Copyright &#169; 2025 Elizabeth Okemmiri. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

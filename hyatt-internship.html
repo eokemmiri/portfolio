@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Management Internship</title>
+    
+    <style>
+            
+                /* DESKTOP NAV */
+
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: -90px;
+}
+
+/* text for nav bar */
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+  font-family: Playfair;
+
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+
+.logo {
+  font-size: 1.67rem;
+  font-family: Playfair;
+  position: relative;
+  display: inline-block;
+  margin-left: 90px;
+  margin-right: auto;
+  margin-top: 5px;
+  /* padding: 5px 10px; */
+ 
+}
+
+.logo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 9px; /* Adjust to control bar position */
+  width: 107%;
+  
+  height: 12.25px; /* Adjust for bar thickness */
+  background-color: #B07C68; /* Brownish background */
+  z-index: -1;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #DFD4CF;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            /* background: #9a6363c5; */
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            width: 75%;
+            margin: 20px auto;
+            background: #f2ece9;
+            /*background-color: #DFD4CF;*/
+            padding: 20px;
+            border-radius: 8px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+        h1{
+            color: #502e1f;
+            font-family: Playfair;
+            font-size: 2.5rem;
+                    } 
+        
+        h2 {
+            color: #B08470;
+            font-family: Playfair;
+            /* align-items: center; */
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+        }
+        
+        
+        .projectdetails {
+          text-align: center;
+          margin: 40px;
+        }
+
+        .listdetails {
+        
+        list-style-position: inside; 
+        display: inline-block;
+        text-align: justify; 
+        margin-left: 100px;
+        padding: 0; 
+      }
+
+
+        .projectcaption {
+          text-align: center;
+          margin: 40px;
+          font-size: small;
+        }
+        .pdetails1, .pdetails2, .pdetails3, .pdetails4 {
+            margin-bottom: 20px;
+        }
+
+        .questions, .questions2, .questions3{
+          text-align: center;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 20px;
+            width: 50%; 
+            margin-left: auto;
+            margin-right: auto;
+
+            
+        }
+        .images img {
+            width: 50%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+        @media (max-width: 768px) {
+            main {
+                width: 95%;
+            }
+            .images {
+                flex-direction: column;
+                align-items: center;
+            }
+            .images img {
+                width: 90%;
+            }
+        }
+  
+
+    </style>
+</head>
+<body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <a href="index.html"> <strong> 
+          ELIZABETH OKEMMIRI</strong></a>
+      </div>      
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html#about">About</a> </li>
+            
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <header>
+        
+          
+        <h1>Hyatt Hotels Corporation Product Management Internship </h1>
+        <p><strong>Timeline:</strong> June 2023 - August 2023</p>
+        <p><strong>Title:</strong> Digital Product Management Intern</p>
+        <p><strong>Skills:</strong> User Experience Design, JIRA, Product Roadmapping, Market Research</p>
+        <p><strong>Collaborators:</strong> Senior Product Mangers, Ios/Android Engineers, UX Researchers</p>
+    </header>
+
+ 
+    
+    <main>
+        <section class="pdetails1">
+            <h2>Overview</h2>
+            <p class="projectdetails">During my internship, I focused on solving a key usability challenge: 
+              the hotel details page (page containing information related to that hotel) was structured in a way that led to user confusion and fatigue, 
+              making it harder for travelers to find essential booking information. My role was to uncover the root causes of this friction and develop a 
+              solution that streamlined the booking experience. Through user research, competitor analysis, and data-driven insights, I identified 
+              opportunities to optimize information hierarchy, improve navigation, and enhance the overall usability of the page.
+              
+              </p>
+            
+            
+          </section>
+        
+          <section class="pdetails1">
+            <h2>My Impact</h2>
+            <ul class="listdetails"> 
+                  <li>    Conducted competitor analysis, card sorting exercises, and market research to identify pain points in navigation and content organization.
+                  </li>
+                  
+                  <li> Helped define an adaptive content approach, prioritizing key booking details while allowing niche travelers to access additional information when needed</li>
+                  <li> Presented research findings and usability improvements to stakeholders, influencing key design decisions</li>
+
+
+
+            </ul>
+              
+             
+            
+            
+          </section>
+       
+          <section class="pdetails1">
+            <h2>Lessons and Takeaways</h2>
+            <p class="projectdetails"> 
+              This experience reinforced the importance of user-centered design in solving complex usability challenges. 
+              I learned how to leverage research methodologies to inform design decisions, collaborate effectively with cross-functional teams, 
+              and translate data into actionable improvements. Most importantly, I saw firsthand how thoughtful design can transform a
+               frustrating experience into an intuitive and engaging digital interaction.
+
+           </p>
+            
+              <p> <i> Due to NDA, I’m unable to share specific details about my project. Please reach out if you have any further questions.</i></p>
+          </section>
+
+   
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

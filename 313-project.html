@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Learning Project</title>
+    
+    <style>
+            /* DESKTOP NAV */
+
+
+nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: -90px;
+}
+
+/* text for nav bar */
+a {
+  color: black;
+  text-decoration: none;
+  text-decoration-color: white;
+  font-family: Playfair;
+
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(181, 181, 181);
+}
+
+
+.logo {
+  font-size: 1.67rem;
+  font-family: Playfair;
+  position: relative;
+  display: inline-block;
+  margin-left: 90px;
+  margin-right: auto;
+  margin-top: 5px;
+  /* padding: 5px 10px; */
+ 
+}
+
+.logo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 9px; /* Adjust to control bar position */
+  width: 107%;
+  height: 12.25px; /* Adjust for bar thickness */
+  background-color: #B07C68; /* Brownish background */
+  z-index: -1;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #DFD4CF;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            /* background: #9a6363c5; */
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            width: 75%;
+            margin: 20px auto;
+            background: #f2ece9;
+            /*background-color: #DFD4CF;*/
+            padding: 20px;
+            border-radius: 8px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+        h1{
+            color: #502e1f;
+            font-family: Playfair;
+            font-size: 2.5rem;
+                    } 
+        
+        h2 {
+            color: #B08470;
+            font-family: Playfair;
+            /* align-items: center; */
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+
+        }
+        
+        
+        .projectdetails {
+          text-align: center;
+          margin: 40px;
+        }
+
+        .projectcaption {
+          text-align: center;
+          margin: 40px;
+          font-size: small;
+        }
+        .pdetails1, .pdetails2, .pdetails3, .pdetails4 {
+            margin-bottom: 20px;
+        }
+
+        .questions, .questions2{
+          text-align: center;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 20px;
+            width: 50%; 
+            margin-left: auto;
+            margin-right: auto;
+
+            
+        }
+        .images img {
+            width: 50%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        }
+        @media (max-width: 768px) {
+            main {
+                width: 95%;
+            }
+            .images {
+                flex-direction: column;
+                align-items: center;
+            }
+            .images img {
+                width: 90%;
+            }
+        }
+       
+
+    </style>
+</head>
+<body>
+    <nav id="desktop-nav">
+      <div class="logo">
+          
+        <a href="index.html"> <strong> 
+          ELIZABETH OKEMMIRI</strong></a>
+      </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html#about">About</a> </li>
+            
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <header>
+        
+          
+        <h1>Introducing Young Learners To AI Through Hands-On Play</h1>
+        <p><strong>Timeline:</strong> March 2024 - June 2024</p>
+        <p><strong>Course:</strong> CS 313 Tangible Interaction</p>
+        <p><strong>Skills:</strong> Interactive Design, User-Centered Design</p>
+        <p><strong>Collaborators:</strong> Computer Science Major (x2), Design Major</p>
+    </header>
+
+ 
+    
+    <main>
+        <section class="pdetails1">
+            <h2>Problem & Exploration: Finding the Connection between AI literacy and Tangible Interaction</h2>
+            <p class="projectdetails">For this course project, my team explored tangible interaction—designing physical interactions with digital information—to create an innovative learning experience. 
+              Initially, we aimed to teach young learners about artificial neural networks (ANNs), which help computers recognize patterns and make decisions, 
+              similar to the human brain. We envisioned an interactive exhibit to break down complex AI concepts and demonstrate ANN functionality. </p>
+
+              <p class="projectdetails">Through research and educator feedback, we refined our focus to foundational concepts. 
+                Logical reasoning and decision-making emerged as the ideal entry points—accessible for elementary students while building a strong foundation for AI literacy.</p>
+            
+                <div class="images">
+              <img src="./assets/idea_sketch_2.jpg" alt="Initial Concept 1">
+              <img src="./assets/idea_sketch_1.jpg" alt="Initial Concept 2">
+              
+          </div>
+
+          <p class="projectcaption"> Initial Sketches of interactive exhibits with ANN as the learning objective.</p>
+          </section>
+        
+        <section class="pdetails2">
+            <h2>Collaborative Design & Prototyping: Crafting an Engaging Educational Game</h2>
+            <p class="projectdetails">With this refined focus, we developed an engaging learning experience. 
+              Through educator feedback and early testing, we arrived at a Guess Who-style decision tree game, 
+              incorporating tactile elements to encourage exploration. As a team, we refined game mechanics and integrated sensor-based triggers for engagement. 
+              Leveraging my product management experience, I ensured alignment with learning objectives, reinforcing structured decision-making skills.
+            </p>
+
+            <p class="projectdetails">The final exhibit brought AI concepts to life through a decision tree where students physically navigated yes/no pathways to identify animals. 
+              Any incorrect answers led them to retrace steps, reinforcing logical reasoning.
+              Players placed animal cards in the correct spots by answering simple questions like: <i>Does the animal fly?</i> or <i>Does it live in water?</i>
+              
+            
+              </p>
+
+              <p class="projectdetails">For our first testing session with elementary school students, we built the interface using durable 
+                cardboard and photoresistors to detect card placements. We observed that gameplay was shorter than expected and that added features would enhance engagement. 
+                Key challenges included troubleshooting sensors, refining interaction timing, and ensuring intuitive play. After team discussions, 
+                we incorporated audio cues for real-time feedback and expanded the animal set to increase complexity and engagement.
+              </p>
+            <div class="images">
+                <img src="./assets/final_prototype_sketch.jpg" alt="Prototype sketch">
+                <img src="./assets/313_mockup_prototype.jpg" alt="Mockup Testing">
+            </div>
+            <p class="projectcaption"> Initial Sketch of our final concept [Left]. First prototype at a user testing session of our Guess-Who game [Right]. </p>
+
+        </section>
+
+        
+
+      <section class="pdetails3">
+        <h2> Testing, Refinement, & Impact</h2>
+        <p class="projectdetails">We showcased the final prototype in two elementary school sessions, where students engaged with the decision-tree game using logical reasoning 
+          to identify animals. They collaborated by teaching peers how to play, learned from mistakes by retracing steps, and successfully found the correct answers. 
+          Incorporating feedback, we added more animals for complexity and audio cues for real-time guidance. Students found the game fun, expressed interest in purchasing it, 
+          and demonstrated a strong grasp of structured decision-making. Educator insights helped refine visibility, sensor feedback, and interaction flow, 
+          ensuring an intuitive and engaging learning experience.</p>
+        <div class="images">
+            <img src="./assets/313_final_testing_1.jpg" alt="Final Prototype ">
+            <img src="./assets/313_matching_cards.jpg" alt="Matching Cards for Prototype ">
+        </div>
+
+       <p class="projectcaption"> First Session - Final Game and matching cards</p>
+        <div class="images">
+          <img src="./assets/313_final_testing_2.jpg" alt="Final Prototype second testing session">
+          <img src="./assets/313_code_for_sensors.jpg" alt="Light sensor code">
+      </div>
+      <p class="projectcaption"> Second Session - Final Prototype and Code for Audio Sensors</p>
+
+    </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
